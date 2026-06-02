@@ -1,0 +1,17 @@
+DATA QUALITY SUMMARY
+
+1. Successfully loaded all 10 CSV datasets.
+
+2. No duplicate rows found in any dataset.
+
+3. All AMFI codes in fund_master exist in nav_history.
+
+4. Missing values found in yoy_growth_pct column in 04_monthly_sip_inflows.csv dataset.
+
+5. Date columns are currently stored as string datatype and may require datetime conversion later.
+
+6. API integration with mfapi.in works successfully.
+
+7. Some API scheme codes returned unexpected fund names, indicating possible external API mapping inconsistencies.
+
+8. Dataset structure and relationships appear consistent overall.
